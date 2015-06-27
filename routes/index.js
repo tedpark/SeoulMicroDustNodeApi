@@ -7,7 +7,7 @@ var parser = require('./parser');
 router.get('/', function(req, res, next) {
 
   console.log(parser);
-  res.send({ dust: parser});
+  res.json({"dust": parser});
   // res.json({ message: 'People updated!' });
 });
 

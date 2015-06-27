@@ -21,9 +21,14 @@ request({uri: 'http://cleanair.seoul.go.kr/air_city.htm?method=measure', encodin
 					str10 				= 	str10.replace(/(\r\n|\n|\r)/gm,"");
           str10				  = 	str10.replace(/\s+/, "");
 
+					let str2 			= 	$(this).find("td").eq(2).text().replace(/\s+/, "");
+					str2 					= 	str2.replace(/(\r\n|\n|\r)/gm,"");
+          str2				  = 	str2.replace(/\s+/, "");
+
 					let areaArr	  =	  [];
 					areaArr.push(strArea);
 					areaArr.push(str10);
+					areaArr.push(str2);
 
 					array.push(areaArr);
 
