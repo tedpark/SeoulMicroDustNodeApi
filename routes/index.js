@@ -1,7 +1,6 @@
 'use strict'
 const express = require('express');
 const router = express.Router();
-const parser = require('./parser');
 
 const request	 	= 	require("request");
 const cheerio 	= 	require("cheerio");
