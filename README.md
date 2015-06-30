@@ -9,3 +9,7 @@
 3. //eq(0) 괄호안의 숫자를 0~5 까지 순차적으로 지역, 미세먼지, 초미세먼지 순으로 받아오게 됩니다.
 
 4. 'use strict' 모드로 구동하는 iojs 혹은 node 최신버전으로 구동하셔야 합니다.
+
+-이것은 스크린샷!
+
+![MacDown Screenshot](https://github.com/tedpark/tedpark.github.io/blob/master/img/Dust/1.png?raw=true)
